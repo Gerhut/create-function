@@ -1,6 +1,6 @@
 {
   "name": "create-function",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Create functions supports partial options.",
   "main": "index.js",
   "scripts": {
