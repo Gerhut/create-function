@@ -1,5 +1,11 @@
 # create-function
 
+[![Build Status](https://travis-ci.org/Gerhut/create-function.svg?branch=master)](https://travis-ci.org/Gerhut/create-function)
+[![Coverage Status](https://coveralls.io/repos/github/Gerhut/create-function/badge.svg?branch=master)](https://coveralls.io/github/Gerhut/create-function?branch=master)
+[![dependencies Status](https://david-dm.org/Gerhut/kroxy/status.svg)](https://david-dm.org/Gerhut/create-function)
+[![devDependencies Status](https://david-dm.org/Gerhut/kroxy/dev-status.svg)](https://david-dm.org/Gerhut/create-function?type=dev)
+[![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
 Create functions supports partial options.
 
 ## Install
