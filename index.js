@@ -6,6 +6,10 @@ function create (defaults) {
 }
 
 function createFunction (implementation, __defaults__) {
+  if (typeof implementation.call !== 'function') {
+    throw new TypeError('Implementation must be callable.')
+  }
+
   function createdFunction (options) {
     return createdFunction.__call__.call(this,
       xtend(createdFunction.defaults, options))
