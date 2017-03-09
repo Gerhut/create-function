@@ -1,12 +1,18 @@
 var xtend = require('xtend')
 
-function createFunction (func, __defaults) {
+function create (defaults) {
+  return createFunction(this.__call__,
+    xtend(this.defaults, defaults))
+}
+
+function createFunction (implementation, __defaults__) {
   function createdFunction (options) {
-    return func(xtend(__defaults, options))
+    return createdFunction.__call__.call(this,
+      xtend(createdFunction.defaults, options))
   }
-  createdFunction.create = function create (defaults) {
-    return createFunction(func, xtend(__defaults, defaults))
-  }
+  createdFunction.__call__ = implementation
+  createdFunction.defaults = __defaults__
+  createdFunction.create = create
   return createdFunction
 }
 
