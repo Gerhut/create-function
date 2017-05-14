@@ -1,5 +1,6 @@
 # create-function
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Gerhut/create-function.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/Gerhut/create-function.svg?branch=master)](https://travis-ci.org/Gerhut/create-function)
 [![Coverage Status](https://coveralls.io/repos/github/Gerhut/create-function/badge.svg?branch=master)](https://coveralls.io/github/Gerhut/create-function?branch=master)
 [![dependencies Status](https://david-dm.org/Gerhut/create-function/status.svg)](https://david-dm.org/Gerhut/create-function)

@@ -27,7 +27,7 @@
     "mocha": "^3.2.0",
     "nyc": "^10.1.2",
     "should": "^11.2.0",
-    "standard": "^9.0.1"
+    "standard": "^10.0.2"
   },
   "dependencies": {
     "xtend": "^4.0.1"
