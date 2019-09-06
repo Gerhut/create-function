@@ -31,6 +31,6 @@ it('should be able to create functions based on created functions', function () 
 })
 
 it('should throw when call without callables', function () {
-  void function () { createFunction() }.should.throw(TypeError)
-  void function () { createFunction(1) }.should.throw(TypeError)
+  ;(function () { createFunction() }).should.throw(TypeError)
+  ;(function () { createFunction(1) }).should.throw(TypeError)
 })
