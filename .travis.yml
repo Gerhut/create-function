@@ -1,9 +1,6 @@
 language: node_js
 node_js:
-  - stable
-  - lts/erbium
-  - lts/dubnium
-  - lts/carbon
+  - node
 after_success:
   - npm install --global coveralls
   - npm run coverage
